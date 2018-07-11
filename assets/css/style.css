@@ -206,16 +206,56 @@ input {
     }
     .contactpage {
         width: 50%;
+        
     }
-    input, textarea {
-        width: 300px;
+    input {
+        max-width: 30em;
     }
     
 }
+@media screen and (max-width: 768px) {
+    .aboutme {
+        width: 650px;
+        margin: 35px;
+        margin-right: 100px;
+        padding: 15px;
 
+    }
+    .contactpage {
+        width: 65%;
+        margin-left: 100px;
+        
+    }
+    input, textarea {
+        width: 500px;
+    }
+    .portfoliopage {
+        height: 100%;
+    }
+
+}
 @media screen and (max-width: 980px) {
     .topnav {
         float: none;
-        margin: 25px;
+        margin: 15px;
+        margin-left: -100px;
+    }
+    .contactpage {
+        width: 75%;
+        margin-left: 100px;
+
+    }
+    input, textarea {
+        max-width: 50em;
+
+    }
+    .aboutme {
+        width: 65%;
+        margin-left: 100px;
+
+    }
+    .portfoliopage {
+        width: 65%;
+        margin-left: 100px;
     }
 }
